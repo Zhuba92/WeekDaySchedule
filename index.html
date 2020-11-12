@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Schedule</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js"></script>
+    <script src="code.js"></script>
+
+</head>
+<body>
+
+<h1>The Schedule</h1>
+
+<form id="day">
+    <fieldset>
+        <legend>Choose a day to view schedule</legend>
+        <label for="monday">Monday</label>
+        <input type="radio" id="monday" name="day" value="Monday"><br>
+        <label for="tuesday">Tuesday</label>
+        <input type="radio" id="tuesday" name="day" value="Tuesday"><br>
+        <label for="wednesday">Wednesday</label>
+        <input type="radio" id="wednesday" name="day" value="Wednesday"><br>
+        <label for="thursday">Thursday</label>
+        <input type="radio" id="thursday" name="day" value="Thursday"><br>
+        <label for="friday">Friday</label>
+        <input type="radio" id="friday" name="day" value="Friday"><br>
+        <label for="saturday">Saturday</label>
+        <input type="radio" id="saturday" name="day" value="Saturday"><br>
+        <label for="sunday">Sunday</label>
+        <input type="radio" id="sunday" name="day" value="Sunday"><br>
+    </fieldset>
+</form>
+<p id="output"></p>
+
+</body>
+</html>
